@@ -1,0 +1,110 @@
+body,
+html {
+    width: 100%;
+    background: rgb(0, 255, 250);
+    background: linear-gradient(15deg, rgba(0, 255, 250, 0.1) 0%, rgba(217, 255, 142, 0.2) 37%, rgba(214, 255, 154, 0.3) 57%, rgba(0, 184, 63, 0.3) 91%);
+    font-size: 16px;
+    color: #000;
+}
+
+.person {
+    /* добавьте ваш код  */
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.person__info {
+    /* добавьте ваш код  */
+    margin-top: 32px;
+}
+
+.person__contacts {
+    /* добавьте ваш код  */
+    margin-top: 100px;
+}
+
+.person__details {
+    /* добавьте ваш код  */
+    margin-top: 32px;
+}
+
+.avatar {
+    /* добавьте ваш код  */
+    width: 350px;
+    height: 350px;
+    margin-right: 32px;
+    border-radius: 100%;
+    /* Радиус скругления */
+    overflow: hidden;
+    /* всё, что не попадает в область видимости объекта должно быть скрыто */
+    border: 32px solid white;
+    /* Параметры рамки */
+}
+
+.avatar__picture {
+    /* добавьте ваш код  */
+}
+
+.contacts {
+    /* добавьте ваш код  */
+}
+
+.contacts__name {
+    /* добавьте ваш код  */
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.contacts__role {
+    /* добавьте ваш код  */
+    font-size: 19.2px;
+    font-weight: bold;
+}
+
+.contacts__item {
+    /* добавьте ваш код  */
+    margin-top: 32px;
+}
+
+.contacts__title {
+    /* добавьте ваш код  */
+    font-weight: bold;
+    font-style: italic;
+}
+
+.contacts__title:after {
+    /* добавьте ваш код  */
+}
+
+.contacts__link {
+    /* добавьте ваш код  */
+    color: gray;
+    font-style: italic;
+}
+
+.paragraph {
+    /* добавьте ваш код  */
+    padding-bottom: 16px;
+}
+
+.paragraph_last {
+    /* добавьте ваш код  */
+    padding-bottom: 48px;
+}
+
+
+/*Адаптивность*/
+
+@media screen and (max-widh: 767px) {
+    .person {
+        /* добавьте ваш код  */
+        margin-left: 20%;
+        margin-right: 20%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
