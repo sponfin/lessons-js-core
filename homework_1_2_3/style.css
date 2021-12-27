@@ -9,47 +9,61 @@ html {
 
 .person {
     /* добавьте ваш код  */
-    margin-left: 20%;
-    margin-right: 20%;
+    /* margin-left: 20%; */
+    /* margin-right: 20%;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0 auto;
+    width: 800px;
+    font-size: 1rem;
+    font-family: Arial;
+    padding-top: 2rem;
 }
 
 .person__info {
     /* добавьте ваш код  */
-    margin-top: 32px;
+    flex: 1 0 50%;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 .person__contacts {
     /* добавьте ваш код  */
-    margin-top: 100px;
+    flex: 1 0 50%;
+    margin-bottom: 2rem;
 }
 
 .person__details {
     /* добавьте ваш код  */
-    margin-top: 32px;
+    /*margin-top: 32px;*/
+    flex: 0 1 100%;
 }
 
 .avatar {
     /* добавьте ваш код  */
-    width: 350px;
-    height: 350px;
-    margin-right: 32px;
-    border-radius: 100%;
-    /* Радиус скругления */
-    overflow: hidden;
-    /* всё, что не попадает в область видимости объекта должно быть скрыто */
-    border: 32px solid white;
-    /* Параметры рамки */
+    /* width: 350px; */
+    /* height: 350px; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem;
+    /*margin-right: 32px;*/
 }
 
 .avatar__picture {
     /* добавьте ваш код  */
+    border-radius: 50%;
+    border: 2rem solid #fff;
 }
 
 .contacts {
     /* добавьте ваш код  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 .contacts__name {
