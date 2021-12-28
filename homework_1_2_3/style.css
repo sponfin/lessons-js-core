@@ -54,8 +54,23 @@ html {
 
 .avatar__picture {
     /* добавьте ваш код  */
-    border-radius: 50%;
-    border: 2rem solid #fff;
+    /*border-radius: 50%;
+    border: 2rem solid #fff;*/
+    width: 350px;
+    height: 350px;
+    margin-right: 32px;
+    border-radius: 100%;
+    /* Радиус скругления */
+    overflow: hidden;
+    /* всё, что не попадает в область видимости объекта должно быть скрыто */
+    border: 32px solid white;
+    /*transform: rotate(-180deg);*/
+    transition: all 2s ease-in-out;
+}
+
+.avatar__picture:hover {
+    transform: rotate(180deg);
+    transition: all 2s ease-in-out;
 }
 
 .contacts {
